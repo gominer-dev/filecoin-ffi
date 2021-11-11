@@ -407,9 +407,9 @@ checksum = "245097e9a4535ee1e3e3931fcfcd55a796a44c643e8596ff6566d68f09b87bbc"
 
 [[package]]
 name = "core-allocator"
-version = "0.1.8"
+version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b35d4f8db5f71a00269a990d000dcbdfbfd7eaeed1affb0ad8410cf2cff4423c"
+checksum = "7d727028b096c7f625ce41060c0d68c5b262720e0d793766787733289712a84b"
 dependencies = [
  "anyhow",
  "hwloc2",
@@ -1839,6 +1839,7 @@ dependencies = [
  "fr32",
  "generic-array 0.14.4",
  "hex",
+ "hwloc2",
  "lazy_static",
  "libc",
  "log",
